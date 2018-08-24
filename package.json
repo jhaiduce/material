@@ -1,18 +1,18 @@
 {
-  "name": "shower-material",
-  "description": "Material theme for Shower HTML presentation engine",
+  "name": "shower-material-jhaiduce",
+  "description": "Material theme for Shower HTML presentation engine (modified)",
   "version": "2.1.2",
   "author": {
     "name": "Vadim Makeev",
     "url": "http://pepelsbey.net/"
   },
-  "homepage": "https://github.com/shower/material",
+  "homepage": "https://github.com/jhaiduce/material",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/material.git"
+    "url": "git://github.com/jhaiduce/material.git"
   },
   "bugs": {
-    "url": "http://github.com/shower/material/issues"
+    "url": "http://github.com/jhaiduce/material/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -37,5 +37,8 @@
   "scripts": {
     "test": "stylelint 'styles/**/*.css'",
     "start": "live-server . --watch='fonts/*,pictures/*,styles/**,index.html'"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
   }
 }
